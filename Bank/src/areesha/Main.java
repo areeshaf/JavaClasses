@@ -4,6 +4,7 @@ package areesha;
 public class Main {
 
 	public static void main(String[] args) {
+		System.out.println("Starting main method");
 		Bank bank1=new Bank("PNB");
 		bank1.addBranch("Rakab Ganj");
 		bank1.addCustomer("Rakab Ganj", "areeeesha", 100000.00);
